@@ -103,6 +103,7 @@ Incident response
 #### Install dependencies:
     pip install -r requirements.txt
 #### Run the Flask app:
+    git clone https://github.com/Sanal-Lince/Meta_Hunt.git
     cd toolkit
     python app.py
 #### Visit in Browser:
