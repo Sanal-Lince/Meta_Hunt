@@ -94,16 +94,14 @@ Incident response
 
     pip (Python package manager)
 #### Step-by-Step Installation:
-
+    git clone https://github.com/Sanal-Lince/Meta_Hunt.git
     cd metahunt
 #### Create a virtual environment (optional but recommended):
     python3 -m venv venv
     source venv/bin/activate   # On Windows use: venv\\Scripts\\activate
-
 #### Install dependencies:
     pip install -r requirements.txt
 #### Run the Flask app:
-    git clone https://github.com/Sanal-Lince/Meta_Hunt.git
     cd toolkit
     python app.py
 #### Visit in Browser:
