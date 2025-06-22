@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-06-21T10:30:00Z",
+    "url": "https://example.com",
+    "metadata": {
+      "user_agent": "Mozilla/5.0",
+      "canvas_hash": "abc123xyz",
+      "ip": "192.168.0.12"
+    }
+  }
+]
