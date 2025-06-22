@@ -95,7 +95,7 @@ Incident response
     pip (Python package manager)
 #### Step-by-Step Installation:
     git clone https://github.com/Sanal-Lince/Meta_Hunt.git
-    cd metahunt
+    cd Meta_Hunt
 #### Create a virtual environment (optional but recommended):
     python3 -m venv venv
     source venv/bin/activate   # On Windows use: venv\\Scripts\\activate
