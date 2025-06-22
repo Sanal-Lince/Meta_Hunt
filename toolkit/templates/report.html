@@ -12,14 +12,15 @@
     <div class="leak-block">
       <h3>🔍 {{ loop.index }}. {{ entry.url }}</h3>
       <p><strong>Timestamp:</strong> {{ entry.timestamp }}</p>
-      <p><strong>Risk Score:</strong> {{ entry.risk_score }} / 10</p>
-      <p><strong>Leaked Metadata:</strong></p>
+      <p><strong>User Agent:</strong> {{ entry.user_agent }}</p>
+      <p><strong>Screen Resolution:</strong> {{ entry.screen_resolution }}</p>
+
+      <p><strong>Raw Data:</strong></p>
       <ul>
-        {% for key, value in entry.metadata.items() %}
+        {% for key, value in entry.items() %}
           <li><code>{{ key }}:</code> {{ value }}</li>
         {% endfor %}
       </ul>
-      <p><strong>🧨 Finding:</strong> {{ entry.finding }}</p>
       <hr>
     </div>
   {% endfor %}
@@ -27,4 +28,3 @@
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
-
